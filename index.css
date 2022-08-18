@@ -8,8 +8,6 @@ body{
 .nav{
     background-color: black;
     height: 3em;
-    
-    
 }
 
 li{
@@ -19,15 +17,12 @@ li{
 }
 
 a{
-   
     text-decoration: none;
-    color: white;
-    
+    color: white; 
 }
 
 #header{
     background-color: rgb(173, 170, 170);
-    
 }
 
 h2{
@@ -59,8 +54,6 @@ footer{
     height: 3em;
     align-items: center;
     justify-content: space-around;
-
-    
 }
 
 
