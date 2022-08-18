@@ -1,0 +1,71 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.nav{
+    background-color: black;
+    height: 3em;
+    
+    
+}
+
+li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+a{
+   
+    text-decoration: none;
+    color: white;
+    
+}
+
+#header{
+    background-color: rgb(173, 170, 170);
+    
+}
+
+h2{
+   margin: 0em 1em ;
+   padding: 1rem 0rem;
+}
+
+#headerText{
+   padding:1em 2em ;
+}
+
+#know{
+    color: blue;
+}
+
+.paragraphs{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+
+p{
+    padding:0rem 2rem;
+}
+
+footer{
+    display: flex;
+    background-color: darkgreen;
+    color: white;
+    height: 3em;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+
+@media screen and (max-width: 600px){
+	.column{
+		width: 100%
+	}
+}
