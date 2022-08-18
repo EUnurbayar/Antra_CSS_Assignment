@@ -53,9 +53,19 @@ footer{
     color: white;
     height: 3em;
     align-items: center;
-    justify-content: space-around;
+    
 }
 
+.leftFooter{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rightFooter{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 35em;
+}
 
 @media screen and (max-width: 600px){
 	.column{
